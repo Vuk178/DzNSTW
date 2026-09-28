@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izvanškolske aktivnosti</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="bg-slate-300 text-slate-900 dark:bg-slate-900 dark:text-slate-100">
+
+    <header class="flex flex-col gap-3 bg-white p-4 shadow-sm sm:flex-row sm:items-center sm:justify-between dark:bg-slate-800">
+        <a href="#" class="focus-ring rounded-sm text-xl font-bold text-brand">
+            Aktivnosti
+        </a>
+
+        <nav class="flex gap-4">
+            <a href="#katalog" class="focus-ring rounded-sm hover:text-brand">
+                Katalog
+            </a>
+
+            <a href="#kontakt" class="focus-ring rounded-sm hover:text-brand">
+                Kontakt
+            </a>
+        </nav>
+    </header>
+
+    <main class="mx-auto grid max-w-6xl gap-6 p-4 lg:grid-cols-4">
+
+        <section id="katalog" class="lg:col-span-3">
+
+            <h1 class="text-3xl font-bold text-brand md:text-4xl">
+                Katalog aktivnosti
+            </h1>
+
+            <div class="mt-4 flex flex-wrap gap-2">
+                <button class="focus-ring rounded-full border px-4 py-2 transition hover:bg-brand hover:text-white">
+                    Sve
+                </button>
+
+                <button class="focus-ring rounded-full border px-4 py-2 transition hover:bg-brand hover:text-white">
+                    Šah
+                </button>
+
+                <button class="focus-ring rounded-full border px-4 py-2 transition hover:bg-brand hover:text-white">
+                    Nogomet
+                </button>
+
+                <button class="focus-ring rounded-full border px-4 py-2 transition hover:bg-brand hover:text-white">
+                    Košarka
+                </button>
+            </div>
+
+            <div class="mt-6 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+
+                <article class="card group flex flex-col">
+
+                    <span class="block text-brand">
+                        Novo
+                    </span>
+
+                    <h2 class="text-lg font-bold group-hover:text-brand">
+                        Šah za početnike
+                    </h2>
+
+                    <p class="mt-2 flex-1 leading-relaxed text-slate-600 dark:text-slate-400">
+                        Naučite osnovna pravila i prve šahovske poteze.
+                    </p>
+
+                    <ul class="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                        <li>Ponedjeljak, 16:00</li>
+                        <li>Učionica 12</li>
+                    </ul>
+
+                    <a href="#" class="btn-primary mt-4">
+                        Prijavi se
+                    </a>
+
+                </article>
+
+
+                <article class="card group flex flex-col">
+
+                    <span class="block text-brand">
+                        Novo
+                    </span>
+
+                    <h2 class="text-lg font-bold group-hover:text-brand">
+                        Školski nogomet
+                    </h2>
+
+                    <p class="mt-2 flex-1 leading-relaxed text-slate-600 dark:text-slate-400">
+                        Treninzi, utakmice i razvoj nogometnih vještina.
+                    </p>
+
+                    <ul class="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                        <li>Srijeda, 17:00</li>
+                        <li>Školsko igralište</li>
+                    </ul>
+
+                    <a href="#" class="btn-primary mt-4">
+                        Prijavi se
+                    </a>
+
+                </article>
+
+
+                <article class="card group flex flex-col">
+
+                    <span class="block text-brand">
+                        Novo
+                    </span>
+
+                    <h2 class="text-lg font-bold group-hover:text-brand">
+                        Košarka
+                    </h2>
+
+                    <p class="mt-2 flex-1 leading-relaxed text-slate-600 dark:text-slate-400">
+                        Trening košarke za početnike i napredne učenike.
+                    </p>
+
+                    <ul class="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-400">
+                        <li>Petak, 16:30</li>
+                        <li>Školska dvorana</li>
+                    </ul>
+
+                    <a href="#" class="btn-primary mt-4">
+                        Prijavi se
+                    </a>
+
+                </article>
+
+            </div>
+        </section>
+
+
+        <aside class="rounded-card bg-white p-6 shadow-sm dark:bg-slate-800">
+
+            <h2 class="font-bold text-brand">
+                Kako do prijave?
+            </h2>
+
+            <ol class="mt-4 list-inside list-decimal space-y-2 text-slate-600 dark:text-slate-400">
+                <li>Odaberi aktivnost</li>
+                <li>Klikni "Prijavi se"</li>
+                <li>Potvrdi e-mail</li>
+            </ol>
+
+        </aside>
+
+    </main>
+
+
+    <footer id="kontakt" class="bg-white p-6 text-center shadow-sm dark:bg-slate-800">
+        aktivnosti@example.com &copy; 2026 Izvanškolske aktivnosti
+    </footer>
+
+</body>
+</html>
